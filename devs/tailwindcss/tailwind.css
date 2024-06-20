@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: CircularStd;
+    src: url(/assets/fonts/CircularStd-Bold.eot),
+        url(/assets/fonts/CircularStd-Bold.woff);
+}
+
+nav.active_nav {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    z-index: 101;
+  }
